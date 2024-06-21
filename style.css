@@ -16,73 +16,89 @@ h2 {
 h3 {
   font-size: 3rem;
 }
-li{
-    font-size: 2rem;
+li {
+  font-size: 2rem;
 }
 h4,
 h5 {
   font-size: 2.8rem;
 }
-a{
-    color: white;
-    text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 /* nav bar */
-.main-head{
-    background: #535151;
-    color: blanchedalmond;
+.main-head {
+  background: #535151;
+  color: blanchedalmond;
 }
-nav{
-    min-height: 10vh;
-    display: flex;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    padding: 2rem;
-}
-button{
-    padding: 2rem 6rem;
-    background: #0c0a0a;
-    border: none;
-    color: white;
-    font-size: 1.8rem;
-    cursor: pointer;
-}
-nav ul{
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 2rem;
 }
 
-#logo{
-    flex: 1 1 40rem;
+button {
+  padding: 2rem 6rem;
+  background: #0c0a0a;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
-.hero{
-    min-height: 90vh;
-    background: url(/images/pexels-mdadilahnaf-19956119.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-     background-position: center;
-     color: white;
-     display:flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
-.hero h3{
-    padding: 5rem;
+
+#logo {
+  flex: 1 1 40rem;
 }
-@media (max-width:932px) {
-    html{
-        font-size: 45%;
-    }
-    nav{
-        text-align: center;
-    }
-    #logo{
-        padding: 2rem;
-    }
+.hero {
+  min-height: 90vh;
+  background: url(/images/pexels-mdadilahnaf-19956119.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+.hero h3 {
+  padding: 5rem;
+}
+
+html {
+  font-size: 45%;
+}
+nav {
+  text-align: center;
+}
+#logo {
+  padding: 2rem;
+}
+/* location section */
+
+#location {
+  min-height: 100vh;
+ background: url(/images/pexels-element5-1051073.jpg);
+  background-size: cover;
+  background-position:bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(201, 23, 23);
+}
+#location h1{
+  margin-left: 20%;
+}
+
