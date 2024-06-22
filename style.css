@@ -102,3 +102,54 @@ nav {
   align-items: center;
 }
 
+#benefits{
+  min-height: 100vh;
+}
+.benefits-head h1{
+  padding-bottom: 2rem;
+  color: red;
+}
+.benefits-head{
+
+  min-height: 40vh;
+  background-color: antiquewhite;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}                                    
+
+.card p ,h4{
+      font-size: large;
+      padding-top: 1rem;
+      margin-top: 3rem;
+}
+.card p{
+  color: white;
+}
+.cards{
+  display: flex;
+  
+  align-items: center;
+ 
+}
+.card{
+ border-radius: 2rem;
+ margin: 1rem 1rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ min-height: 60vh;
+ background: #d48c8c;
+ 
+}
+.card-icon{
+  min-height: 20rem;
+  min-width: 30rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: aqua;
+}
