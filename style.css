@@ -93,12 +93,12 @@ nav {
  background: url(/images/pexels-element5-1051073.jpg);
   background-size: cover;
   background-position:bottom;
+  color: rgb(237, 16, 16);
+}
+  
+#location{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(201, 23, 23);
-}
-#location h1{
-  margin-left: 20%;
 }
 
